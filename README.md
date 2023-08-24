@@ -17,7 +17,7 @@ For use with the Archipelago multi-game multiworld: https://archipelago.gg
 ## Installation
 
 1. Download the [Archipelago Unstable Manual Client](https://drive.google.com/file/d/17Dbsn4VyV5heG-vCW4CDEJvSWVkY9P-B/view)
-2. Download most recent .zip file in [releases]()
+2. Download most recent .zip file in [releases](https://github.com/mystakin/DBFZ_Manual_Randomizer/releases/tag/v1.0.0)
 3. Extract Unstable Manual Client to [path] (wherever you want to put it)
 4. Extract **manual_dragonballfighterz_mystakin.apworld** from latest release to [path]/lib/worlds
 5. Extract **DBFZ.yaml** from latest release to [path]/Players
