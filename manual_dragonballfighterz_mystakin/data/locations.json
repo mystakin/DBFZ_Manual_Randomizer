@@ -1,0 +1,237 @@
+[ 
+	{ "name": "Snake Way 1", "requires": ["Snake Way"], "category": ["Arcade"] },
+	{ "name": "Snake Way 2", "requires": ["Snake Way"], "category": ["Arcade"] },
+	{ "name": "Snake Way 3", "requires": ["Snake Way"], "category": ["Arcade"] },
+
+	{ "name": "Extreme Gravity Spaceship 1", "requires": ["Extreme Gravity Spaceship"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 2", "requires": ["Extreme Gravity Spaceship"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 3", "requires": ["Extreme Gravity Spaceship"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 4", "requires": ["Extreme Gravity Spaceship"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 5", "requires": ["Extreme Gravity Spaceship"], "category": ["Arcade"] },
+
+	{ "name": "Hyperbolic Time Chamber 1", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 2", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 3", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 4", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 5", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 6", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 7", "requires": ["Hyperbolic Time Chamber"], "category": ["Arcade"] },
+
+	{ "name": "Snake Way 1 (Hard)", "requires": ["Snake Way (Hard)"], "category": ["Arcade"] },
+	{ "name": "Snake Way 2 (Hard)", "requires": ["Snake Way (Hard)"], "category": ["Arcade"] },
+	{ "name": "Snake Way 3 (Hard)", "requires": ["Snake Way (Hard)"], "category": ["Arcade"] },
+
+	{ "name": "Extreme Gravity Spaceship 1 (Hard)", "requires": ["Extreme Gravity Spaceship (Hard)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 2 (Hard)", "requires": ["Extreme Gravity Spaceship (Hard)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 3 (Hard)", "requires": ["Extreme Gravity Spaceship (Hard)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 4 (Hard)", "requires": ["Extreme Gravity Spaceship (Hard)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 5 (Hard)", "requires": ["Extreme Gravity Spaceship (Hard)"], "category": ["Arcade"] },
+
+	{ "name": "Hyperbolic Time Chamber 1 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 2 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 3 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 4 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 5 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 6 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 7 (Hard)", "requires": ["Hyperbolic Time Chamber (Hard)"], "category": ["Arcade"] },
+
+	{ "name": "Snake Way 1 (Random)", "requires": ["Snake Way (Random)"], "category": ["Arcade"] },
+	{ "name": "Snake Way 2 (Random)", "requires": ["Snake Way (Random)"], "category": ["Arcade"] },
+	{ "name": "Snake Way 3 (Random)", "requires": ["Snake Way (Random)"], "category": ["Arcade"] },
+
+	{ "name": "Extreme Gravity Spaceship 1 (Random)", "requires": ["Extreme Gravity Spaceship (Random)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 2 (Random)", "requires": ["Extreme Gravity Spaceship (Random)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 3 (Random)", "requires": ["Extreme Gravity Spaceship (Random)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 4 (Random)", "requires": ["Extreme Gravity Spaceship (Random)"], "category": ["Arcade"] },
+	{ "name": "Extreme Gravity Spaceship 5 (Random)", "requires": ["Extreme Gravity Spaceship (Random)"], "category": ["Arcade"] },
+
+	{ "name": "Hyperbolic Time Chamber 1 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 2 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 3 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 4 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 5 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 6 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+	{ "name": "Hyperbolic Time Chamber 7 (Random)", "requires": ["Hyperbolic Time Chamber (Random)"], "category": ["Arcade"] },
+
+	{ "name": "Tien 1 Online Match", "requires": ["Tien"], "category": ["Story Character"] },
+	{ "name": "Tien 1 Best-of-Three Set", "requires": ["Tien"], "category": ["Story Character"] },
+
+	{ "name": "Yamcha 1 Online Match", "requires": ["Yamcha"], "category": ["Story Character"] },
+	{ "name": "Yamcha 1 Best-of-Three Set", "requires": ["Yamcha"], "category": ["Story Character"] },
+
+	{ "name": "Krillin 1 Online Match", "requires": ["Krillin"], "category": ["Story Character"] },
+	{ "name": "Krillin 1 Best-of-Three Set", "requires": ["Krillin"], "category": ["Story Character"]  },
+
+	{ "name": "Goku (Super Saiyan) 1 Online Match", "requires": ["Goku (Super Saiyan)"], "category": ["Story Character"] },
+	{ "name": "Goku (Super Saiyan) 1 Best-of-Three Set", "requires": ["Goku (Super Saiyan)"], "category": ["Story Character"] },
+
+	{ "name": "Frieza 1 Online Match", "requires": ["Frieza"], "category": ["Story Character"] },
+	{ "name": "Frieza 1 Best-of-Three Set", "requires": ["Frieza"], "category": ["Story Character"] },
+
+	{ "name": "Captain Ginyu 1 Online Match", "requires": ["Captain Ginyu"], "category": ["Story Character"] },
+	{ "name": "Captain Ginyu 1 Best-of-Three Set", "requires": ["Captain Ginyu"], "category": ["Story Character"] },
+
+	{ "name": "Nappa 1 Online Match", "requires": ["Nappa"], "category": ["Story Character"] },
+	{ "name": "Nappa 1 Best-of-Three Set", "requires": ["Nappa"], "category": ["Story Character"] },
+
+	{ "name": "Gohan (Adult) 1 Online Match", "requires": ["Gohan (Adult)"], "category": ["Story Character"] },
+	{ "name": "Gohan (Adult) 1 Best-of-Three Set", "requires": ["Gohan (Adult)"], "category": ["Story Character"] },
+
+	{ "name": "Vegeta (Super Saiyan) 1 Online Match", "requires": ["Vegeta (Super Saiyan)"], "category": ["Story Character"] },
+	{ "name": "Vegeta (Super Saiyan) 1 Best-of-Three Set", "requires": ["Vegeta (Super Saiyan)"], "category": ["Story Character"] },
+
+	{ "name": "Cell 1 Online Match", "requires": ["Cell"], "category": ["Story Character"] },
+	{ "name": "Cell 1 Best-of-Three Set", "requires": ["Cell"], "category": ["Story Character"] },
+
+	{ "name": "Android 18 1 Online Match", "requires": ["Android 18"], "category": ["Story Character"] },
+	{ "name": "Android 18 1 Best-of-Three Set", "requires": ["Android 18"], "category": ["Story Character"] },
+
+	{ "name": "Android 16 1 Online Match", "requires": ["Android 16"], "category": ["Story Character"] },
+	{ "name": "Android 16 1 Best-of-Three Set", "requires": ["Android 16"], "category": ["Story Character"] },
+
+	{ "name": "Android 21 1 Online Match", "requires": ["Android 21"], "category": ["Story Character"] },
+	{ "name": "Android 21 1 Best-of-Three Set", "requires": ["Android 21"], "category": ["Story Character"] },
+
+	{ "name": "Gotenks 1 Online Match", "requires": ["Gotenks"], "category": ["Story Character"] },
+	{ "name": "Gotenks 1 Best-of-Three Set", "requires": ["Gotenks"], "category": ["Story Character"] },
+
+	{ "name": "Piccolo 1 Online Match", "requires": ["Piccolo"], "category": ["Story Character"] },
+	{ "name": "Piccolo 1 Best-of-Three Set", "requires": ["Piccolo"], "category": ["Story Character"] },
+
+	{ "name": "Majin Buu 1 Online Match", "requires": ["Majin Buu"], "category": ["Story Character"] },
+	{ "name": "Majin Buu 1 Best-of-Three Set", "requires": ["Majin Buu"], "category": ["Story Character"] },
+
+	{ "name": "Master Roshi 1 Online Match", "requires": ["Master Roshi"], "category": ["DLC Character"] },
+	{ "name": "Master Roshi 1 Best-of-Three Set", "requires": ["Master Roshi"], "category": ["DLC Character"] },
+
+	{ "name": "Gogeta (SSGSS) 1 Online Match", "requires": ["Gogeta (SSGSS)"], "category": ["DLC Character"] },
+	{ "name": "Gogeta (SSGSS) 1 Best-of-Three Set", "requires": ["Gogeta (SSGSS)"], "category": ["DLC Character"] },
+
+	{ "name": "Goku (Base) 1 Online Match", "requires": ["Goku (Base)"], "category": ["DLC Character"] },
+	{ "name": "Goku (Base) 1 Best-of-Three Set", "requires": ["Goku (Base)"], "category": ["DLC Character"] },
+
+	{ "name": "Android 21 (Lab Coat) 1 Online Match", "requires": ["Android 21 (Lab Coat)"], "category": ["DLC Character"] },
+	{ "name": "Android 21 (Lab Coat) 1 Best-of-Three Set", "requires": ["Android 21 (Lab Coat)"], "category": ["DLC Character"] },
+
+	{ "name": "Kid Buu 1 Online Match", "requires": ["Kid Buu"], "category": ["Bonus Character"] },
+	{ "name": "Kid Buu 1 Best-of-Three Set", "requires": ["Kid Buu"], "category": ["Bonus Character"] },
+
+	{ "name": "Vegeta (Base) 1 Online Match", "requires": ["Vegeta (Base)"], "category": ["DLC Character"] },
+	{ "name": "Vegeta (Base) 1 Best-of-Three Set", "requires": ["Vegeta (Base)"], "category": ["DLC Character"] },
+
+	{ "name": "Broly (DBS) 1 Online Match", "requires": ["Broly (DBS)"], "category": ["DLC Character"] },
+	{ "name": "Broly (DBS) 1 Best-of-Three Set", "requires": ["Broly (DBS)"], "category": ["DLC Character"] },
+
+	{ "name": "Cooler 1 Online Match", "requires": ["Cooler"], "category": ["DLC Character"] },
+	{ "name": "Cooler 1 Best-of-Three Set", "requires": ["Cooler"], "category": ["DLC Character"] },
+
+	{ "name": "Janemba 1 Online Match", "requires": ["Janemba"], "category": ["DLC Character"] },
+	{ "name": "Janemba 1 Best-of-Three Set", "requires": ["Janemba"], "category": ["DLC Character"] },
+
+	{ "name": "Goku (Ultra Instinct) 1 Online Match", "requires": ["Goku (Ultra Instinct)"], "category": ["DLC Character"] },
+	{ "name": "Goku (Ultra Instinct) 1 Best-of-Three Set", "requires": ["Goku (Ultra Instinct)"], "category": ["DLC Character"] },
+
+	{ "name": "Super Baby 2 1 Online Match", "requires": ["Super Baby 2"], "category": ["DLC Character"] },
+	{ "name": "Super Baby 2 1 Best-of-Three Set", "requires": ["Super Baby 2"], "category": ["DLC Character"] },
+
+	{ "name": "Goku (GT) 1 Online Match", "requires": ["Goku (GT)"], "category": ["DLC Character"]},
+	{ "name": "Goku (GT) 1 Best-of-Three Set", "requires": ["Goku (GT)"], "category": ["DLC Character"] },
+
+	{ "name": "Android 17 1 Online Match", "requires": ["Android 17"], "category": ["DLC Character"] },
+	{ "name": "Android 17 1 Best-of-Three Set", "requires": ["Android 17"], "category": ["DLC Character"] },
+
+	{ "name": "Bardock 1 Online Match", "requires": ["Bardock"], "category": ["DLC Character"]},
+	{ "name": "Bardock 1 Best-of-Three Set", "requires": ["Bardock"], "category": ["DLC Character"] },
+
+	{ "name": "Trunks 1 Online Match", "requires": ["Trunks"], "category": ["Bonus Character"] },
+	{ "name": "Trunks 1 Best-of-Three Set", "requires": ["Trunks"], "category": ["Bonus Character"] },
+
+	{ "name": "Broly (OG) 1 Online Match", "requires": ["Broly (OG)"], "category": ["DLC Character"] },
+	{ "name": "Broly (OG) 1 Best-of-Three Set", "requires": ["Broly (OG)"], "category": ["DLC Character"] },
+
+	{ "name": "Videl 1 Online Match", "requires": ["Videl"], "category": ["DLC Character"] },
+	{ "name": "Videl 1 Best-of-Three Set", "requires": ["Videl"], "category": ["DLC Character"] },
+
+	{ "name": "Vegito (SSGSS) 1 Online Match", "requires": ["Vegito (SSGSS)"], "category": ["DLC Character"] },
+	{ "name": "Vegito (SSGSS) 1 Best-of-Three Set", "requires": ["Vegito (SSGSS)"], "category": ["DLC Character"] },
+
+	{ "name": "Gohan (Teen) 1 Online Match", "requires": ["Gohan (Teen)"], "category": ["Bonus Character"] },
+	{ "name": "Gohan (Teen) 1 Best-of-Three Set", "requires": ["Gohan (Teen)"], "category": ["Bonus Character"] },
+
+	{ "name": "Gogeta (SS4) 1 Online Match", "requires": ["Gogeta (SS4)"], "category": ["DLC Character"] },
+	{ "name": "Gogeta (SS4) 1 Best-of-Three Set", "requires": ["Gogeta (SS4)"], "category": ["DLC Character"] },
+
+	{ "name": "Beerus 1 Online Match", "requires": ["Beerus"], "category": ["Bonus Character"] },
+	{ "name": "Beerus 1 Best-of-Three Set", "requires": ["Beerus"], "category": ["Bonus Character"] },
+
+	{ "name": "Hit 1 Online Match", "requires": ["Hit"], "category": ["Bonus Character"] },
+	{ "name": "Hit 1 Best-of-Three Set", "requires": ["Hit"], "category": ["Bonus Character"] },
+
+	{ "name": "Goku Black 1 Online Match", "requires": ["Goku Black"], "category": ["Bonus Character"] },
+	{ "name": "Goku Black 1 Best-of-Three Set", "requires": ["Goku Black"], "category": ["Bonus Character"] },
+
+	{ "name": "Zamasu (Fused) 1 Online Match", "requires": ["Zamasu (Fused)"], "category": ["DLC Character"] },
+	{ "name": "Zamasu (Fused) 1 Best-of-Three Set", "requires": ["Zamasu (Fused)"], "category": ["DLC Character"] },
+
+	{ "name": "Jiren 1 Online Match", "requires": ["Jiren"], "category": ["DLC Character"] },
+	{ "name": "Jiren 1 Best-of-Three Set", "requires": ["Jiren"], "category": ["DLC Character"] },
+
+	{ "name": "Kefla 1 Online Match", "requires": ["Kefla"], "category": ["DLC Character"] },
+	{ "name": "Kefla 1 Best-of-Three Set", "requires": ["Kefla"], "category": ["DLC Character"] },
+
+	{ "name": "Vegeta (SSGSS) 1 Online Match", "requires": ["Vegeta (SSGSS)"], "category": ["Bonus Character"] },
+	{ "name": "Vegeta (SSGSS) 1 Best-of-Three Set", "requires": ["Vegeta (SSGSS)"], "category": ["Bonus Character"] },
+
+	{ "name": "Goku (SSGSS) 1 Online Match", "requires": ["Goku (SSGSS)"], "category": ["Bonus Character"] },
+	{ "name": "Goku (SSGSS) 1 Best-of-Three Set", "requires": ["Goku (SSGSS)"], "category": ["Bonus Character"] },
+
+	{ "name": "Super Warrior Arc Map 1", "requires": ["Goku (Super Saiyan)"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 2", "requires": ["Goku (Super Saiyan)"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 3", "requires": ["Goku (Super Saiyan)"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 4", "requires": ["Goku (Super Saiyan)", "Krillin"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 5", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 6", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 7", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 8", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 9", "requires": ["Cell"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 10", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 11", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 12", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 13", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 14", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks"], "category": ["Main Story"] },
+	{ "name": "Super Warrior Arc Map 15", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks"], "category": ["Main Story"] },
+
+	{ "name": "Enemy Warrior Arc Map 1", "requires": ["Frieza"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 2", "requires": ["Frieza", "Nappa"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 3", "requires": ["Frieza", "Nappa", "Captain Ginyu"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 4", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 5", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 6", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 7", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 8", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 9", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien", "Piccolo"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 10", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien", "Piccolo", "Majin Buu"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 11", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien", "Piccolo", "Majin Buu", "Vegeta (Super Saiyan)"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 12", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien", "Piccolo", "Majin Buu", "Vegeta (Super Saiyan)", "Gohan (Adult)", "Gotenks"], "category": ["Main Story"] },
+	{ "name": "Enemy Warrior Arc Map 13", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien", "Piccolo", "Majin Buu", "Vegeta (Super Saiyan)", "Gohan (Adult)", "Gotenks"], "category": ["Main Story"] },
+
+	{ "name": "Android 21 Arc Map 1", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 2", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 3", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 4", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 5", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 6", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 7", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 8", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 9", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 10", "requires": ["Android 18", "Android 16"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 11", "requires": ["Android 18", "Android 16", "Android 21"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 12", "requires": ["Android 18", "Android 21"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 13", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks", "Android 18", "Android 21"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 14", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks", "Android 18", "Android 21"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 15", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks", "Android 18", "Android 21"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 16", "requires": ["Goku (Super Saiyan)", "Krillin", "Yamcha", "Tien", "Majin Buu", "Piccolo", "Gohan (Adult)", "Vegeta (Super Saiyan)", "Gotenks", "Android 18", "Android 21"], "category": ["Main Story"] },
+	{ "name": "Android 21 Arc Map 17", "requires": ["Frieza", "Nappa", "Captain Ginyu", "Cell", "Goku (Super Saiyan)", "Krillin",  "Yamcha", "Tien", "Piccolo", "Majin Buu", "Vegeta (Super Saiyan)", "Gohan (Adult)", "Gotenks", "Android 18", "Android 16", "Android 21"], "category": ["Main Story"] }
+]	
+
+

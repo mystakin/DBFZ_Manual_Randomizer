@@ -1,0 +1,206 @@
+game: Manual_DragonBallFighterZ_Mystakin #name of manual randomizer
+name: DBFZ #name of player
+
+Manual_DragonBallFighterZ_Mystakin: #Manual title formatting: MANUAL_GAMENAME_CREATOR
+    progression_balancing: 50 #sets risk of getting stuck. A lower setting means more getting stuck. A higher setting means less getting stuck.
+    accessibility: items #sets rules for reachability of items and locations to complete the seed
+    restrict_locations: #calls trigger to exclude locations for faster seeds
+        full: 1 #all locations included. Estimated Time-to-Finish: 7 to 8 hours.
+        no_dlc: 0 #excludes DLC character checks. DLC Character items will still be unlocked. Estimated Time-to-Finish: 6 to 7 hours
+        no_story: 0 #excludes Super Warrior Arc, Enemy Warrior Arc, and Android 21 Arc checks. Estimated Time-to-Finish: 6 to 7 hours
+        no_story_or_dlc: 0 #excludes main story & DLC character checks . Estimated Time-to-Finish: 4 to 5 hours
+
+#----------------------------------------------------------------------------------------------------------------#
+    triggers: #list of triggers called by custom YAML setting
+    - option_category: Manual_DragonBallFighterZ_Mystakin #set the game that uses this trigger
+      option_name: restrict_locations #set the name of trigger to be called
+      option_result: full #set the name of result to be called
+      options: #no restrictions applied
+        Manual_DragonBallFighterZ_Mystakin:
+            start_inventory: {}
+    - option_category: Manual_DragonBallFighterZ_Mystakin #set the game that uses this trigger
+      option_name: restrict_locations #set the name of trigger to be called
+      option_result: no_dlc #set the name of result to be called
+      options: #exclude DLC character checks
+        Manual_DragonBallFighterZ_Mystakin:
+            exclude_locations:
+                - Master Roshi 1 Online Match
+                - Master Roshi 1 Best-of-Three Set
+                - Gogeta (SSGSS) 1 Online Match
+                - Gogeta (SSGSS) 1 Best-of-Three Set
+                - Goku (Base) 1 Online Match
+                - Goku (Base) 1 Best-of-Three Set
+                - Android 21 (Lab Coat) 1 Online Match
+                - Android 21 (Lab Coat) 1 Best-of-Three Set
+                - Vegeta (Base) 1 Online Match
+                - Vegeta (Base) 1 Best-of-Three Set
+                - Broly (DBS) 1 Online Match
+                - Broly (DBS) 1 Best-of-Three Set
+                - Cooler 1 Online Match
+                - Cooler 1 Best-of-Three Set
+                - Janemba 1 Online Match
+                - Janemba 1 Best-of-Three Set
+                - Goku (Ultra Instinct) 1 Online Match
+                - Goku (Ultra Instinct) 1 Best-of-Three Set
+                - Super Baby 2 1 Online Match
+                - Super Baby 2 1 Best-of-Three Set
+                - Goku (GT) 1 Online Match
+                - Goku (GT) 1 Best-of-Three Set
+                - Android 17 1 Online Match
+                - Android 17 1 Best-of-Three Set
+                - Bardock 1 Online Match
+                - Bardock 1 Best-of-Three Set
+                - Broly (OG) 1 Online Match
+                - Broly (OG) 1 Best-of-Three Set
+                - Videl 1 Online Match
+                - Videl 1 Best-of-Three Set
+                - Vegito (SSGSS) 1 Online Match
+                - Vegito (SSGSS) 1 Best-of-Three Set
+                - Gogeta (SS4) 1 Online Match
+                - Gogeta (SS4) 1 Best-of-Three Set
+                - Zamasu (Fused) 1 Online Match
+                - Zamasu (Fused) 1 Best-of-Three Set
+                - Jiren 1 Online Match
+                - Jiren 1 Best-of-Three Set
+                - Kefla 1 Online Match
+                - Kefla 1 Best-of-Three Set
+    - option_category: Manual_DragonBallFighterZ_Mystakin #set the game that uses this trigger
+      option_name: restrict_locations #set the name of trigger to be called
+      option_result: no_story #set the name of result to be called
+      options: #exclude main story checks
+        Manual_DragonBallFighterZ_Mystakin:
+            exclude_locations:
+                - Super Warrior Arc Map 1
+                - Super Warrior Arc Map 2
+                - Super Warrior Arc Map 3
+                - Super Warrior Arc Map 4
+                - Super Warrior Arc Map 5
+                - Super Warrior Arc Map 6
+                - Super Warrior Arc Map 7
+                - Super Warrior Arc Map 8
+                - Super Warrior Arc Map 9
+                - Super Warrior Arc Map 10
+                - Super Warrior Arc Map 11
+                - Super Warrior Arc Map 12
+                - Super Warrior Arc Map 13
+                - Super Warrior Arc Map 14
+                - Super Warrior Arc Map 15
+                - Enemy Warrior Arc Map 1
+                - Enemy Warrior Arc Map 2
+                - Enemy Warrior Arc Map 3
+                - Enemy Warrior Arc Map 4
+                - Enemy Warrior Arc Map 5
+                - Enemy Warrior Arc Map 6
+                - Enemy Warrior Arc Map 7
+                - Enemy Warrior Arc Map 8
+                - Enemy Warrior Arc Map 9
+                - Enemy Warrior Arc Map 10
+                - Enemy Warrior Arc Map 11
+                - Enemy Warrior Arc Map 12
+                - Enemy Warrior Arc Map 13
+                - Android 21 Arc Map 1
+                - Android 21 Arc Map 2
+                - Android 21 Arc Map 3
+                - Android 21 Arc Map 4
+                - Android 21 Arc Map 5
+                - Android 21 Arc Map 6
+                - Android 21 Arc Map 7
+                - Android 21 Arc Map 8
+                - Android 21 Arc Map 9
+                - Android 21 Arc Map 10
+                - Android 21 Arc Map 11
+                - Android 21 Arc Map 12
+                - Android 21 Arc Map 13
+                - Android 21 Arc Map 14
+                - Android 21 Arc Map 15
+                - Android 21 Arc Map 16
+    - option_category: Manual_DragonBallFighterZ_Mystakin #set the game that uses this trigger
+      option_name: restrict_locations #set the name of trigger to be called
+      option_result: no_story_or_dlc #set the name of result to be called
+      options: #excludes DLC character & main story checks
+        Manual_DragonBallFighterZ_Mystakin:
+            exclude_locations:
+                - Master Roshi 1 Online Match
+                - Master Roshi 1 Best-of-Three Set
+                - Gogeta (SSGSS) 1 Online Match
+                - Gogeta (SSGSS) 1 Best-of-Three Set
+                - Goku (Base) 1 Online Match
+                - Goku (Base) 1 Best-of-Three Set
+                - Android 21 (Lab Coat) 1 Online Match
+                - Android 21 (Lab Coat) 1 Best-of-Three Set
+                - Vegeta (Base) 1 Online Match
+                - Vegeta (Base) 1 Best-of-Three Set
+                - Broly (DBS) 1 Online Match
+                - Broly (DBS) 1 Best-of-Three Set
+                - Cooler 1 Online Match
+                - Cooler 1 Best-of-Three Set
+                - Janemba 1 Online Match
+                - Janemba 1 Best-of-Three Set
+                - Goku (Ultra Instinct) 1 Online Match
+                - Goku (Ultra Instinct) 1 Best-of-Three Set
+                - Super Baby 2 1 Online Match
+                - Super Baby 2 1 Best-of-Three Set
+                - Goku (GT) 1 Online Match
+                - Goku (GT) 1 Best-of-Three Set
+                - Android 17 1 Online Match
+                - Android 17 1 Best-of-Three Set
+                - Bardock 1 Online Match
+                - Bardock 1 Best-of-Three Set
+                - Broly (OG) 1 Online Match
+                - Broly (OG) 1 Best-of-Three Set
+                - Videl 1 Online Match
+                - Videl 1 Best-of-Three Set
+                - Vegito (SSGSS) 1 Online Match
+                - Vegito (SSGSS) 1 Best-of-Three Set
+                - Gogeta (SS4) 1 Online Match
+                - Gogeta (SS4) 1 Best-of-Three Set
+                - Zamasu (Fused) 1 Online Match
+                - Zamasu (Fused) 1 Best-of-Three Set
+                - Jiren 1 Online Match
+                - Jiren 1 Best-of-Three Set
+                - Kefla 1 Online Match
+                - Kefla 1 Best-of-Three Set
+                - Super Warrior Arc Map 1
+                - Super Warrior Arc Map 2
+                - Super Warrior Arc Map 3
+                - Super Warrior Arc Map 4
+                - Super Warrior Arc Map 5
+                - Super Warrior Arc Map 6
+                - Super Warrior Arc Map 7
+                - Super Warrior Arc Map 8
+                - Super Warrior Arc Map 9
+                - Super Warrior Arc Map 10
+                - Super Warrior Arc Map 11
+                - Super Warrior Arc Map 12
+                - Super Warrior Arc Map 13
+                - Super Warrior Arc Map 14
+                - Super Warrior Arc Map 15
+                - Enemy Warrior Arc Map 1
+                - Enemy Warrior Arc Map 2
+                - Enemy Warrior Arc Map 3
+                - Enemy Warrior Arc Map 4
+                - Enemy Warrior Arc Map 5
+                - Enemy Warrior Arc Map 6
+                - Enemy Warrior Arc Map 7
+                - Enemy Warrior Arc Map 8
+                - Enemy Warrior Arc Map 9
+                - Enemy Warrior Arc Map 10
+                - Enemy Warrior Arc Map 11
+                - Enemy Warrior Arc Map 12
+                - Enemy Warrior Arc Map 13
+                - Android 21 Arc Map 1
+                - Android 21 Arc Map 2
+                - Android 21 Arc Map 3
+                - Android 21 Arc Map 4
+                - Android 21 Arc Map 5
+                - Android 21 Arc Map 6
+                - Android 21 Arc Map 7
+                - Android 21 Arc Map 8
+                - Android 21 Arc Map 9
+                - Android 21 Arc Map 10
+                - Android 21 Arc Map 11
+                - Android 21 Arc Map 12
+                - Android 21 Arc Map 13
+                - Android 21 Arc Map 14
+                - Android 21 Arc Map 15
+                - Android 21 Arc Map 16

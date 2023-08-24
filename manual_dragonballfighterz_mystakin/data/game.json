@@ -1,0 +1,17 @@
+{
+    "game": "DragonBallFighterZ",
+    "player": "Mystakin",
+
+    "filler_item_name": "senzu bean",
+	
+	"starting_items": [
+        {
+            "item_categories": ["Bonus Character"],
+            "random": 3
+        },
+        {
+            "item_categories": ["Arcade"],
+            "random": 1
+        }
+    ]
+}
