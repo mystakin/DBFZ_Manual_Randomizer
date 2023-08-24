@@ -12,7 +12,7 @@ For use with the Archipelago multi-game multiworld: https://archipelago.gg
 ## Requirements
 - Dragon Ball FigherZ (PC or Console)
 - [Archipelago Manual Unstable Client](https://drive.google.com/file/d/17Dbsn4VyV5heG-vCW4CDEJvSWVkY9P-B/view)
-- [PopTracker pack]() (highly recommended)
+- [PopTracker pack](https://github.com/mystakin/DBFZ_Manual_Randomizer_Poptracker/tree/main) (highly recommended)
 
 ## Installation
 
